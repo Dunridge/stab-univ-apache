@@ -1,0 +1,86 @@
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.bg-container {
+  background-image: url("../../assets/images/bg-abstract-v2.jpg");
+  background-size: cover;
+}
+
+nav {
+  background-color: #126aa1;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.info-section {
+  position: relative;
+  /*right: 10%;*/
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-title {
+  color: white;
+}
+
+.navbar-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-header > img {
+  margin: 10px;
+}
+
+.univ-title {
+  font-size: 22px;
+  /*color: #696969;*/
+  /*font-size: 13px;*/
+  font-family: Verdana;
+}
+
+.faculty {
+  font-size: 22px;
+  color: white;
+  /*font-size: 13px;*/
+  /*font-family: Verdana;*/
+}
+
+.univ-department {
+  font-size: 30px;
+  /*position: relative;*/
+  /*left: 20%;*/
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-link {
+  color: whitesmoke;
+  position: relative;
+  left: 4px;
+  top: 10px;
+}
+
+.info-container {
+  display: block;
+}
+
+
+@media screen and (max-width: 1210px) {
+  .info-section > * {
+    font-size: 20px;
+  }
+}

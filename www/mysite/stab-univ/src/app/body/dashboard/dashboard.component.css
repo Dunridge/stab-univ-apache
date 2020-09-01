@@ -1,0 +1,89 @@
+
+.page-container {
+  min-height: 120%;
+  height: 140%;
+  background: #ccefff;
+  display: flex;
+}
+
+.sidebar {
+  height: 100%;
+  width: 300px;
+  background: #99ccff;
+}
+
+.disciplines .list-item > *,
+.groups .list-item > *{
+  color: black;
+}
+
+.list-items {
+  height: 100%;
+}
+
+.list-items > * {
+  color: black;
+}
+
+.list-item {
+  position: relative;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.95);
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.list-item i.material-icons {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.list-item:first-child {
+  margin-top: 16px;
+}
+
+.list-item:hover {
+  color: #494892;
+}
+
+.list-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  background-color: #10396e;
+  opacity: 0;
+}
+
+.list-item:hover::before {
+  opacity: 1;
+}
+
+.useful-links {
+}
+
+.useful-links-list a {
+  display: block;
+}
+
+.section-name {
+  padding-left: 25px;
+  padding-top: 5px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.95);
+  cursor: pointer;
+}
+
+div.sidebar > div > a:nth-child(11) {
+  position: relative;
+  bottom: 20px;
+}
+
+.router-content {
+  width: 75%;
+}
